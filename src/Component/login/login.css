@@ -1,0 +1,35 @@
+/* 
+<div className="meal">
+          <div className="menu">
+            <img src={image2} alt="" />
+            <p>Locals</p>
+          </div>
+
+          <div>
+            <div className="menu">
+              <img src={image3} alt="" />
+              <p>International</p>
+            </div>
+          </div>
+          <div>
+            <div className="menu">
+              <img src={image4} alt="" />
+              <p>
+                Appertizers & <br /> Fast Food
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className="menu">
+              <img src={image5} alt="" />
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div>
+            <div className="menu">
+              <img src={image6} alt="" />
+              <p>Veggies</p>
+            </div>
+          </div>
+        </div>
+      </div> */
