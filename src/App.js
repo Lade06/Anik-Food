@@ -4,7 +4,7 @@ import Navbar from './Component/navbar/navbar';
 import Content from './Component/content/content';
 import Home from './Component/home/home';
 import Footer from './Component/footer/footer';
-import Login from './Component/login/login';
+// import Login from './Component/login/login';
 // import Content from './Component/content/content.js';
 // import Footer from './Component/footer/footer';
 // import Navbar from './Component/navbar/navbar';
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />}>
           <Route path="navbar" element={<Navbar />} />
           <Route path="content" element={<Content />} />
-          <Route path="login" element={<Login />} />
+          {/* <Route path="login" element={<Login />} /> */}
            <Route path="footer" element={<Footer />} />
         </Route>
       </Routes>

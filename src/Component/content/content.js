@@ -11,14 +11,14 @@ import image8 from "../../Assets/rolls.png";
 import image9 from "../../Assets/Spag 1.png";
 import image10 from "../../Assets/nkwobi 1.png";
 import star from "../../Assets/Star 1.png";
-import image11 from "../../Assets/roasted chicken.png";
-import image12 from "../../Assets/Timer.png";
+// import image11 from "../../Assets/roasted chicken.png";
+// import image12 from "../../Assets/Timer.png";
 // import image11 from "../../Assets/roasted chicken.png";
 // import image11 from "../../Assets/roasted chicken.png";
 
 const Content = () => {
   return (
-    <div>
+    <div className="cent">
       <div className="container">
         <div className="row">
           <div className="col-md-4 food mt-5">
@@ -47,35 +47,35 @@ const Content = () => {
       <p className="our">Our Menus</p>
       <div className="container text-center mt-5">
         <div className="row">
-        {/* <div className="meal"> */}
+        <div className="meal">
             <div className="col-md-4 menu">
-            <img src={image2} alt="" />
+            <img src={image2} alt="" className="foodie"/>
             <p>Locals</p>
             </div>
 
             <div className="col-md-4 menu">
-              <img src={image3} alt="" />
+              <img src={image3} alt=""className="foodie" />
               <p>International</p>
             </div>
 
             <div className="col-md-4 menu">
-              <img src={image4} alt="" />
+              <img src={image4} alt="" className="foodie" />
               <p>
                 Appertizers & <br /> Fast Food
               </p>
             </div>
 
             <div className="col-md-4 menu">
-              <img src={image5} alt="" />
+              <img src={image5} alt=""className="foodie"  />
               <p>Chicken</p>
             </div>
 
             <div className="col-md-4 menu">
-              <img src={image6} alt="" />
+              <img src={image6} alt="" className="foodie" />
               <p>Veggies</p>
             </div>
     
-        {/* </div> */}
+        </div> 
         </div>
       </div>
       </div>
@@ -84,7 +84,7 @@ const Content = () => {
 
       <div>
         <p className="our">Inspiration For Your First Order</p>
-        {/* <div className="meal2"> */}
+        <div className="meal2">
          <div className="container text-center mt-5">
           <div className="row">
             <div className="col-md-4 menu2">
@@ -133,7 +133,7 @@ const Content = () => {
        </div>
           </div>
          </div>      
-        {/* </div> */}
+        </div>
       </div>
 
       {/* <div>
