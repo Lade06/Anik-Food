@@ -1,4 +1,6 @@
+import React from "react";
 import image from "../../Assets/Hide.png";
+
 import image1 from "../../Assets/ANIK.png";
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";

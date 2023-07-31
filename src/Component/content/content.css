@@ -4,82 +4,89 @@ ul li a{
   color: white;
   padding: 10px;
 }
-.food {
-  color: white;
+a:hover{
+  color: #fe8503;
 }
 span {
   color: #fe8503;
 }
 input {
-  width: 150px;
-  height: 40px;
+  width: 15em;
+  height: 4em;
   padding: 20px;
+  margin-top: 4em;
   font-size: 12px;
   position: relative;
-  border-radius: 5px, 0px, 0px, 5px;
+  border: none;
 }
 .btnn {
-  width: 77px;
-  height: 41px;
-  left: 164px;
+  width: 7em;
+  height: 4em;
+  margin-top: 4em;
   font-size: 12px;
   background: #fe8503;
-  position: absolute;
-  right: 15px;
-  border-radius: 0px, 5px, 5px, 0px;
+  position:relative;
+border: none;
 }
-.our{
+.inspiration{
   color: #fe8503;
-  text-align: center;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 17px;
-  letter-spacing: 0em;
-  
+  font-size: 1.5em;
+  margin-bottom: 2em;
 }
-.menu {
-  width: 85px;
-  height: 90px;
+.menu{
+  width: 10em;
   padding: 15px;
   color: #fe8503;
+  height: 12em;
+  border: none;
+  border-radius: 2em;
   background: #2A3742;
-
   font-size: 10px;
-  border-radius: 10px;
+
 }
+ .as{
+  position: relative;
+  left: 55em; 
+}
+.asf{
+  position: relative;
+  left: 40em
+}
+.asss{
+  position: relative;
+  left: 30em
+}
+.ase{
+  position: relative;
+  left: 15em;
+} 
 .meal{ 
    display: flex;
-    margin-bottom: 20px; 
-   padding: 10px; 
+    /* margin-bottom: 20px;  */
+   /* padding: 10px;  */
+   justify-content: center;
    gap: 15px;
  } 
-.menu2{
-    width: 71px;
-    height: 90px;
-    padding: 5px;
-    margin-bottom: 120px;
-    color: #fe8503;
-    background: #1a2630;
-    font-size: 10px;
-    border-radius: 10px;
-    /* justify-content: center; */
-}
+
 .foo{
   padding-top: 10px;
 }
-
-.meal2{
-    display: flex;
-    padding: 10px; 
-    margin-bottom: 20px;
-    gap: 15px;
-  
-}
 .chick{
   width: 300px;
-  /* height: 725px; */
 }
-p{
-  color: white;
+.back{
+ 
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  border: none;
+  outline: none;
+}
+.basirat{
+  padding-top:10em;
+}
+.semo{
+  font-size: 12px;
+}
+.semo p{
+  color: #fe8503;
 }

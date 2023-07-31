@@ -3,11 +3,9 @@
     margin: auto;
 }
 
-/* .login{
-    margin-left: 5em;
-} */
+
 .btn{
-    margin-left: 20em;
+    /* margin-left: 20em; */
     background-color:  #fe8503;
     border-radius: 5em;
 }
