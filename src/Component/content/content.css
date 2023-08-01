@@ -52,6 +52,13 @@ input {
   border-radius: 2em;
   background: #2A3742;
   font-size: 10px;
+}
+.men{ 
+  /* width: ; */
+  margin: 5em;
+  /* float: left; */
+  gap: 30px;
+  /* justify-content: space-around; */
 
 }
  .as{

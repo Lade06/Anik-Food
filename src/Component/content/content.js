@@ -61,7 +61,7 @@ const Content = () => {
       Our Menus
         </h2>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-3 menu text-center">
             
             <img src={image2} alt="" className="foodie" />
@@ -88,8 +88,34 @@ const Content = () => {
             <img src={image6} alt="" className="foodie" />
             <p>Veggies</p>
           </div>
-        </div>
+        </div> */}
+
       </div>
+
+      <div className="container mt-4">
+    <div className="row">
+    
+      <div className="col-md-2 menu men">
+        <img src={image2} alt="Image 1" className="img-fluid" />
+      </div>
+      
+      <div className="col-md-3 menu men">
+        <img src={image3} alt="Image 2" className="img-fluid" />
+      </div>
+ 
+      <div className="col-md-3 menu men">
+        <img src={image4}  alt="Image 3" className="img-fluid" />
+      </div>
+
+      <div className="col-md-3 menu men">
+        <img src={image5}  alt="Image 4" className="img-fluid" />
+      </div>
+     
+      <div className="col-md-3 menu men">
+        <img src={image6}  alt="Image 5" className="img-fluid" />
+      </div>
+    </div>
+  </div>
 
       <div>
         <h2 className="inspiration basirat text-center">
