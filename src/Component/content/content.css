@@ -18,6 +18,13 @@ input {
   font-size: 12px;
   position: relative;
   border: none;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+.ourmenu{
+  color: #fe8503;
+  font-size: 1.5em;
+  margin-bottom: 2em;
 }
 .btnn {
   width: 7em;
@@ -26,7 +33,10 @@ input {
   font-size: 12px;
   background: #fe8503;
   position:relative;
-border: none;
+  border: none;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+
 }
 .inspiration{
   color: #fe8503;
@@ -89,4 +99,82 @@ border: none;
 }
 .semo p{
   color: #fe8503;
+}
+.what{
+  color: #fe8503;
+  font-size: 1.5em;
+  /* margin-bottom: 2em; */
+  margin-top: 5em;
+}
+.hours{
+  display: flex;
+  /* justify-content: space-around; */
+  column-gap: 3em;
+}
+.circle{
+  width: 20em;
+height: 25em;
+background: #FE8503;
+border-radius: 100%;
+position: relative;
+margin-bottom: 1em;
+}
+.chef{
+  width: 13em;
+height: 25em;
+position: absolute;
+}
+.elli{
+  width: 5em;
+} 
+.woman{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 2em;
+}
+.ellip{
+  margin-left: 19em;
+display: flex ;
+gap: 0.2em;
+}
+.veg1{
+  position: absolute;
+  bottom: 16em;
+  left: 8em;
+  width: 8em;
+}
+.veg2{
+  position: absolute;
+  bottom: 10em;
+  left: 21em;
+  width: 8em;
+}
+/* .veg3{
+  position: absolute;
+  bottom: 22em;
+  left: 35em;
+} */
+.veg4{
+  position: absolute;
+  bottom: 16em;
+  left: 24em;
+  width: 8em;
+}
+.veg5{
+  position: absolute;
+  bottom: 10em;
+  left: 16em;
+  width: 5em;
+}
+.veg6{
+  position: absolute;
+  bottom: 22em;
+  left: 21em;
+  width: 5em;
+}
+.veg7{
+  position: absolute;
+  bottom: 23em;
+  left: 8em;
+  width: 8em;
 }

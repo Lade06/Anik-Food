@@ -1,3 +1,6 @@
+.navbar{
+    width: 100%;
+}
 .navlink{
     padding-left: 15em;
     margin: auto;
@@ -5,7 +8,6 @@
 
 
 .btn{
-    /* margin-left: 20em; */
     background-color:  #fe8503;
     border-radius: 5em;
 }

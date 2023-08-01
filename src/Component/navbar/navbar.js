@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return(
         <div>
-<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
   <div className="container-fluid">
     <img src={image} alt="" />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
