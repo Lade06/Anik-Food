@@ -41,7 +41,7 @@ input {
 .inspiration{
   color: #fe8503;
   font-size: 1.5em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 .menu{
   width: 10em;
@@ -57,7 +57,7 @@ input {
   /* width: ; */
   margin: 5em;
   /* float: left; */
-  gap: 30px;
+  /* gap: 30px; */
   /* justify-content: space-around; */
 
 }
@@ -140,7 +140,7 @@ position: absolute;
   margin-bottom: 2em;
 }
 .ellip{
-  margin-left: 19em;
+  margin-left: 15em;
 display: flex ;
 gap: 0.2em;
 }
@@ -163,20 +163,20 @@ gap: 0.2em;
 } */
 .veg4{
   position: absolute;
-  bottom: 16em;
-  left: 24em;
-  width: 8em;
+  bottom: 13em;
+  left: 17em;
+  width: 6em;
 }
 .veg5{
   position: absolute;
-  bottom: 10em;
-  left: 16em;
+  bottom: 8em;
+  left: 13em;
   width: 5em;
 }
 .veg6{
   position: absolute;
-  bottom: 22em;
-  left: 21em;
+  bottom: 20em;
+  left: 16em;
   width: 5em;
 }
 .veg7{

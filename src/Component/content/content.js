@@ -96,29 +96,29 @@ const Content = () => {
     <div className="row">
     
       <div className="col-md-2 menu men">
-        <img src={image2} alt="Image 1" className="img-fluid" />
+        <img src={image2} alt="" className="img-fluid" />
       </div>
       
       <div className="col-md-3 menu men">
-        <img src={image3} alt="Image 2" className="img-fluid" />
+        <img src={image3} alt="" className="img-fluid" />
       </div>
  
       <div className="col-md-3 menu men">
-        <img src={image4}  alt="Image 3" className="img-fluid" />
+        <img src={image4}  alt="" className="img-fluid" />
       </div>
 
       <div className="col-md-3 menu men">
-        <img src={image5}  alt="Image 4" className="img-fluid" />
+        <img src={image5}  alt="" className="img-fluid" />
       </div>
      
       <div className="col-md-3 menu men">
-        <img src={image6}  alt="Image 5" className="img-fluid" />
+        <img src={image6}  alt="" className="img-fluid" />
       </div>
     </div>
   </div>
 
       <div>
-        <h2 className="inspiration basirat text-center">
+        <h2 className="inspiration text-center mt-5">
           Inspiration For Your First Order
         </h2>
       </div>
@@ -257,7 +257,7 @@ const Content = () => {
         <img src={chef} alt="chef"  className="chef" />
     <div className="veggie">
         <img src={image01} alt=""  className="veg1" />
-        <img src={image02} alt=""  className="veg2" />
+        {/* <img src={image02} alt=""  className="veg2" /> */}
         <img src={image03} alt=""  className="veg3" />
         <img src={image00} alt=""  className="veg4" />
         <img src={Veggies} alt=""  className="veg5" />
