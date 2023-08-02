@@ -1,36 +1,51 @@
-/* 
-<div className="meal">
-          <div className="menu">
-            <img src={image2} alt="" />
-            <p>Locals</p>
-          </div>
+.bg-left{
+  background-color: white;
+  width: 100%;
+  height: 40em;
+}
+.bold{
+  font-weight: 700;
+}
+#login-email{
+  width: 100%;
+  border: 0px 0px 0px 2px solid ; 
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #fe8503;
+  outline: none;
+}
+#login-password{
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #fe8503;
+  outline: none;
+}
 
-          <div>
-            <div className="menu">
-              <img src={image3} alt="" />
-              <p>International</p>
-            </div>
-          </div>
-          <div>
-            <div className="menu">
-              <img src={image4} alt="" />
-              <p>
-                Appertizers & <br /> Fast Food
-              </p>
-            </div>
-          </div>
-          <div>
-            <div className="menu">
-              <img src={image5} alt="" />
-              <p>Chicken</p>
-            </div>
-          </div>
-          <div>
-            <div className="menu">
-              <img src={image6} alt="" />
-              <p>Veggies</p>
-            </div>
-          </div>
-        </div>
-      </div> */
-      
+.sign-in{
+  
+  width: 100%;
+  height: 2em;
+  border-radius: 3em;
+  background-color: #fe8503;
+  border: none;
+}
+.check{
+  color: black;
+  margin-right: 4em;
+  font-size: 15px;
+}
+.bg-right-login{
+  width: 100%;
+  height: 40em;
+  background-image: url(../../Assets/butter_samosa-e1503561620296\ 1.jpg);
+  background-repeat: no-repeat;
+}
+.hide{
+  margin-left: 20em;
+}
+hr{
+  width: 35%;
+}

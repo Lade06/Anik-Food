@@ -2,12 +2,14 @@
     width: 100%;
 }
 .navlink{
-    padding-left: 5em;
+    /* padding-left: 4em; */
     margin: auto;
 }
-
-
 .btn{
     background-color:  #fe8503;
     border-radius: 5em;
+}
+.login{
+    position: relative;
+    left: 10em;
 }

@@ -10,7 +10,7 @@ a:hover{
 span {
   color: #fe8503;
 }
-input {
+#inputt{
   width: 15em;
   height: 4em;
   padding: 20px;
@@ -18,9 +18,10 @@ input {
   font-size: 12px;
   position: relative;
   border: none;
+  outline: none;
   border-top-left-radius: 2em;
   border-bottom-left-radius: 2em;
-}
+} 
 .ourmenu{
   color: #fe8503;
   font-size: 1.5em;
@@ -61,7 +62,7 @@ input {
   /* justify-content: space-around; */
 
 }
- .as{
+ /* .as{
   position: relative;
   left: 55em; 
 }
@@ -76,7 +77,7 @@ input {
 .ase{
   position: relative;
   left: 15em;
-} 
+}  */
 .meal{ 
    display: flex;
     /* margin-bottom: 20px;  */
@@ -110,12 +111,10 @@ input {
 .what{
   color: #fe8503;
   font-size: 1.5em;
-  /* margin-bottom: 2em; */
   margin-top: 5em;
 }
 .hours{
   display: flex;
-  /* justify-content: space-around; */
   column-gap: 3em;
 }
 .circle{
