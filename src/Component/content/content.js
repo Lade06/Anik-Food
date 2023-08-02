@@ -27,7 +27,7 @@ import image00 from "../../Assets/O 3.png";
 import Veggies from "../../Assets/VEGGIES 2.png";
 import green from "../../Assets/green.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import background from "../../Assets/img.jpg"
+// import background from "../../Assets/img.jpg"
 import { Carousel } from "react-responsive-carousel";
 import background1 from "../../Assets/kk.jpg"
 import background2 from "../../Assets/mm.jfif"
