@@ -233,7 +233,7 @@ const Content = () => {
             
           <Carousel>
                 <div>
-                    <img src={background}  alt="" />
+                    {/* <img src={background}  alt="" /> */}
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
