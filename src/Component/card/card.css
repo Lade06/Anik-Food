@@ -1,0 +1,40 @@
+.card-d{
+    background:  #1A2630;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.order{
+    font-size: 30px;
+}
+.time{
+    padding-left: 15em;
+ 
+}
+.track{
+    width: 15em;
+    height: 3em;
+    background: #FE8503;
+    color: white;
+    border-radius: 1em;
+    border: none;
+}
+.tracking{
+    padding-left: 18em;
+    font-size: 1rem;
+    border-radius: 1em;
+}
+.track2{
+    width: 15em;
+    height: 3em;
+    background: #FE8503;
+    color: white;
+    border: 2px solid #FE8503;
+    border-radius: 1em;
+    background: none;
+}
+.check{
+    width: 10%;
+    height: 5%;
+    color: #FE8503;
+}

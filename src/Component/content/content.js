@@ -19,7 +19,7 @@ import image13 from "../../Assets/Food Bar.png";
 import image14 from "../../Assets/Deliver Food.png";
 import chef from "../../Assets/chef.png";
 import ellipse6 from "../../Assets/Ellipse 6 (1).png";
-import woman from "../../Assets/woman.png";
+// import woman from "../../Assets/woman.png";
 import image01 from "../../Assets/O 1.png";
 // import image02 from "../../Assets/O 2 (1).png";
 import image03 from "../../Assets/O 2.png";
