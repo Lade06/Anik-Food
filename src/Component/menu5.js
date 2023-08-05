@@ -42,7 +42,7 @@ const Menu5 = () => {
         </div>
         {/* Add more slides as needed */}
       </Slider>
-      /*{" "}
+      {" "}
 
 
       {/* <div className="container">
@@ -80,7 +80,7 @@ const Menu5 = () => {
           </div>
         </div>
       </div>{" "} */}
-      */
+      
     </div>
   );
 };

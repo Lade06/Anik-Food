@@ -13,6 +13,9 @@ import Card from "../card/card";
 import Card2 from "../card/card2";
 import Card3 from "../card/card3";
 import Card4 from "../card/card4";
+import About from "../about/about";
+import Contact from "../contact/contact";
+import Order from "../order/order";
 
 const Home = () => {
   return (
@@ -31,6 +34,9 @@ const Home = () => {
       <Card2 />
       <Card3 />
       <Card4 />
+      <About />
+      <Contact />
+      <Order />
     </div>
   );
 };

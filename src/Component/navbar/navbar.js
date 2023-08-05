@@ -31,12 +31,10 @@ const Navbar = () => {
         <li className="nav-item">
           <Link to="/contact">Contact</Link>
         </li>
-        <li className="nav-item login">
-         <Link to="/login" className="login">Login</Link>
-        </li>
       </ul>
       </div>
 
+      <button className="btn btn-primary btn-login" type="button">Login</button>
         <button className="btn btn-primary" type="button">Sign Up</button>
    
     </div>

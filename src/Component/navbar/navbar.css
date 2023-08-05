@@ -9,7 +9,7 @@
     background-color:  #fe8503;
     border-radius: 5em;
 }
-.login{
-    position: relative;
-    left: 10em;
+.btn-login{
+    background: none;
+    border: none;
 }
