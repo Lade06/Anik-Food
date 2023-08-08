@@ -16,6 +16,7 @@ const Menu4 = () => {
                 src={sundaychick}
                 alt="chicken"
                 width={"100%"}
+                height={"330em"}
                 className="mt-5"
               />
               <p className="text-center bold word mt-5">Rostiserrie Chicken</p>
@@ -26,18 +27,31 @@ const Menu4 = () => {
                 src={pepperedpomo}
                 alt="peppered-pomo"
                 width={"100%"}
+                height={"330em"}
                 className="mt-5"
               />
               <p className="text-center bold word">Peppered Pomo</p>
             </div>
 
             <div className="intact">
-              <img src={beacon} alt="beacon" width={"100%"} className="mt-5" />
+              <img
+                src={beacon}
+                alt="beacon"
+                width={"100%"}
+                height={"330em"}
+                className="mt-5"
+              />
               <p className="text-center bold word mt-5 mx-5">Bacon</p>
             </div>
 
             <div className="intact">
-              <img src={nkwobi2} alt="nkwobi" width={"100%"} className="mt-5" />
+              <img
+                src={nkwobi2}
+                alt="nkwobi"
+                width={"100%"}
+                height={"330em"}
+                className="mt-5"
+              />
               <p className="text-center bold word mt-5 mx-5">Nkwobi</p>
             </div>
           </div>

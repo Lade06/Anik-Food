@@ -1,6 +1,6 @@
 .bg-left{
   background-color: white;
-  width: 100%;
+  width: 88%;
   height: 40em;
 }
 .bold{
@@ -44,7 +44,7 @@
   font-size: 12px;
 }
 .bg-right-signup{
-  width: 100%;
+  width: 88%;
   height: 40em;
   background-image: url(../../Assets/potatoe.jpg);
   background-repeat: no-repeat;

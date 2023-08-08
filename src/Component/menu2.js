@@ -12,7 +12,13 @@ const Menu2 = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="intact">
-              <img src={kimchi} alt="kimchi" width={"100%"} className="mt-5" />
+              <img
+                src={kimchi}
+                alt="kimchi"
+                width={"100%"}
+                className="mt-5"
+                height={"330em"}
+              />
               <p className="text-center bold word mt-4 mx-5">Kimchi</p>
             </div>
 
@@ -22,12 +28,19 @@ const Menu2 = () => {
                 alt="caribean"
                 width={"100%"}
                 className="mt-5"
+                height={"330em"}
               />
               <p className="text-center bold word mt-4">Carribean Rice</p>
             </div>
 
             <div className="intact">
-              <img src={spag} alt="spaghetti" width={"100%"} className="mt-5" />
+              <img
+                src={spag}
+                alt="spaghetti"
+                width={"100%"}
+                height={"330em"}
+                className="mt-5"
+              />
               <p className="text-center bold word mt-4 mx-5">Spaghetti</p>
             </div>
 
@@ -36,6 +49,7 @@ const Menu2 = () => {
                 src={friedrice}
                 alt="fried-rice"
                 width={"100%"}
+                height={"330em"}
                 className="mt-5"
               />
               <p className="text-center bold word mt-4 mx-5">Fried Rice</p>

@@ -1,9 +1,12 @@
 import React from "react";
 import "./contact.css";
+import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
 
 const Contact = () => {
   return (
     <div>
+      <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-5 text-light text-center">
@@ -56,6 +59,7 @@ const Contact = () => {
               <div className="gmap_canvas">
                 <iframe
                   className="gmap_iframe"
+                  title="map"
                   frameBorder="0"
                   scrolling="no"
                   marginHeight="0"
@@ -68,6 +72,7 @@ const Contact = () => {
           <div className="col-md-4"></div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

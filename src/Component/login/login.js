@@ -6,6 +6,8 @@ import image from "../../Assets/Hide.png";
 import imaget from "../../Assets/🦆 icon _google_.jpg";
 import imageg from "../../Assets/🦆 icon _twitter original_.jpg";
 import imagef from "../../Assets/🦆 icon _facebook_.jpg";
+import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
 // import samosa from "../../Assets/butter_samosa-e1503561620296 1.jpg";
 // import { Link } from "react-router-dom";
 
@@ -15,6 +17,7 @@ import imagef from "../../Assets/🦆 icon _facebook_.jpg";
 const Login = () => {
   return (
     <div>
+      <Navbar />
       <div className="">
         <div className="d-flex">
           <div className="col-md-5">
@@ -42,7 +45,7 @@ const Login = () => {
                         />
                       </p>
                       <p>
-                        <img src={image} alt=""  className="hide mt-2"/>
+                        {/* <img src={image} alt=""  className="hide mt-2"/> */}
                         <input
                           type="password"
                           id="login-password"
@@ -99,6 +102,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

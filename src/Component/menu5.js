@@ -1,16 +1,13 @@
 import React from "react";
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel"
 
-   
 // import veggies from "../Assets/veggies-lifemag 1.jpg";
 import seafood from "../Assets/sea-food.jpg";
 import broccoli from "../Assets/broccoli 1.jpg";
 
 const Menu5 = () => {
-
   const settings = {
     dots: true,
     infinite: true,
@@ -21,29 +18,20 @@ const Menu5 = () => {
 
   return (
     <div>
-      
-      <Slider {...settings}>
-        <div className="intact">
-          <img src={seafood} alt="seafood" width={"600px"} className="mt-5" />
-          {/* <p className="text-center bold word mt-5">Sea food Veggy</p> */}
-        </div>
-        <div className="intact">
-          <img src={broccoli} alt="broccoli" width={"600px"} className="mt-5" />
-          {/* <p className="text-center bold word mt-5 mx-5">Broccoli</p> */}
-        </div>
-        <div className="intact">
-          <img src={seafood} alt="seafood" width={"600px"} className="mt-5" />
-          {/* <p className="text-center bold word mt-5">Sea food Veggy</p> */}
-        </div>
-
-        <div className="intact">
-          <img src={seafood} alt="seafood" width={"600px"} className="mt-5" />
-          {/* <p className="text-center bold word mt-5">Sea food Veggy</p> */}
-        </div>
-        {/* Add more slides as needed */}
-      </Slider>
-      {" "}
-
+       <Carousel>
+                <div>
+                    <img src={seafood}  alt="" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={broccoli} alt="" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={seafood} alt=""/>
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
 
       {/* <div className="container">
         <div className="row">
@@ -80,7 +68,6 @@ const Menu5 = () => {
           </div>
         </div>
       </div>{" "} */}
-      
     </div>
   );
 };

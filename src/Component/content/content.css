@@ -25,7 +25,6 @@ span {
 .ourmenu{
   color: #fe8503;
   font-size: 1.5em;
-  margin-bottom: 2em;
 }
 .btnn {
   width: 7em;
@@ -42,7 +41,7 @@ span {
 .inspiration{
   color: #fe8503;
   font-size: 1.5em;
-  margin-bottom: 3em;
+  /* margin-bottom: 5em; */
 }
 .menu{
   width: 10em;
@@ -55,29 +54,15 @@ span {
   font-size: 10px;
 }
 .men{ 
-  /* width: ; */
+ 
   margin: 5em;
-  /* float: left; */
-  /* gap: 30px; */
+  
   /* justify-content: space-around; */
 
 }
- /* .as{
-  position: relative;
-  left: 55em; 
-}
-.asf{
-  position: relative;
-  left: 40em
-}
-.asss{
-  position: relative;
-  left: 30em
-}
-.ase{
-  position: relative;
-  left: 15em;
-}  */
+/* .menuu{
+  display: flex;
+} */
 .meal{ 
    display: flex;
     /* margin-bottom: 20px;  */
@@ -93,7 +78,8 @@ span {
   width: 300px;
 }
 .back{
- 
+ width: 8em;
+ height: 15em;
   border-top-left-radius: 3em;
   border-top-right-radius: 3em;
   border: none;
@@ -104,6 +90,7 @@ span {
 }
 .semo{
   font-size: 12px;
+  /* width: 25em; */
 }
 .semo p{
   color: #fe8503;
@@ -162,20 +149,20 @@ gap: 0.2em;
 } */
 .veg4{
   position: absolute;
-  bottom: 13em;
-  left: 17em;
+  bottom: 12em;
+  left: 13.5em;
   width: 6em;
 }
 .veg5{
   position: absolute;
-  bottom: 8em;
+  bottom: 7em;
   left: 13em;
   width: 5em;
 }
 .veg6{
   position: absolute;
   bottom: 20em;
-  left: 16em;
+  left: 14em;
   width: 5em;
 }
 .veg7{

@@ -11,10 +11,13 @@ import vegge from "../../Assets/Sauteed-Vegetables-005 1.png";
 import brocc from "../../Assets/broccoli 2.jpg";
 import corndog from "../../Assets/corn-dog.jpg";
 import cappuccino from "../../Assets/Cappuccino 1.jpg";
+import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
 
 const About = () => {
   return (
     <div>
+      <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center mt-5 text-light">
@@ -116,6 +119,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

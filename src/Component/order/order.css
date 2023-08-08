@@ -1,6 +1,17 @@
-.b-tn{
-    width: 2em;
-    border: 1px solid #fe8503;
-    background: none;
-    color: white;
+.b-tn {
+  width: 2em;
+  border: 1px solid #fe8503;
+  background: none;
+  color: white;
+}
+.buy-but{
+    background: #fe8503;
+    width: 10em;
+    height: 2em;
+    border-radius: 9em;
+    border: none;
+    
+}
+.you{
+    font-size: 3rem;
 }

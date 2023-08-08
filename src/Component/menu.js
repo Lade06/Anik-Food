@@ -14,6 +14,8 @@ import image11 from "../Assets/JollySpaghetti_600x480px 1.jpg";
 import image12 from "../Assets/pasta.jpg";
 import image13 from "../Assets/tuwo.jpg";
 import image14 from "../Assets/Afang-Soup 1.jpg";
+import Navbar from "./navbar/navbar";
+import Footer from "./footer/footer";
 
 // import userlocation from "../Assets/User Location.jpg";
 
@@ -23,6 +25,7 @@ import image14 from "../Assets/Afang-Soup 1.jpg";
 const Menu = () => {
   return (
     <div>
+      <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center text-light mt-5">
@@ -31,7 +34,7 @@ const Menu = () => {
             {/* <img src={multiply} alt="multiply" /> */}
             <input
               type="text"
-              id="text"
+              id="craving"
               name="input"
               placeholder="what are you craving"
               className="text mt-4"
@@ -147,6 +150,7 @@ const Menu = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

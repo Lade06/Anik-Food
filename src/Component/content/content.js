@@ -29,9 +29,8 @@ import green from "../../Assets/green.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import background from "../../Assets/img.jpg"
 import { Carousel } from "react-responsive-carousel";
-import background1 from "../../Assets/kk.jpg"
-import background2 from "../../Assets/mm.jfif"
-// import {BsClockHistory} from 'react-icons/bs';
+import background1 from "../../Assets/kk.jpg";
+import background2 from "../../Assets/mm.jfif";
 
 const Content = () => {
   return (
@@ -59,42 +58,17 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container basirat">
+      {/* <div className="container basirat">
         <h2 className="ourmenu text-center">Our Menus</h2>
-
-        {/* <div className="row">
-          <div className="col-md-3 menu text-center">
-            
-            <img src={image2} alt="" className="foodie" />
-            <p>Locals</p>
-          </div>
-
-          <div className="col-md-2 menu ase text-center">
-            <img src={image3} alt="" className="foodie" />
-            <p>International</p>
-          </div>
-
-          <div className="col-md-2 menu asss text-center">
-            <img src={image4} alt="" className="foodie" />
-            <p>
-              Appertizers & <br /> Fast Food
-            </p>
-          </div>
-
-          <div className="col-md-2 menu asf text-center">
-            <img src={image5} alt="" className="foodie" />
-            <p>Chicken</p>
-          </div>
-          <div className="col-md-3 menu as text-center">
-            <img src={image6} alt="" className="foodie" />
-            <p>Veggies</p>
-          </div>
-        </div> */}
-      </div>
-
-      <div className="container mt-4">
+      </div> */}
+      
+       <div className="container mt-4">
         <div className="row">
+        <div className="container basirat">
+        <h2 className="ourmenu text-center">Our Menus</h2>
+      </div>
           <div className="col-md-2 menu men text-center">
+           
             <img src={image2} alt="" className="img-fluid mb-4" />
             <p>Locals</p>
           </div>
@@ -121,20 +95,20 @@ const Content = () => {
             <p>Veggies</p>
           </div>
         </div>
-      </div>
+      </div> 
+     
 
+      <div className="container mt-5">
       <div>
-        <h2 className="inspiration text-center mt-5">
+        <h2 className="inspiration text-center mb-5">
           Inspiration For Your First Order
         </h2>
       </div>
-
-      <div className="container">
         <div className="row">
           <div className="col-md-3 semo ">
             <button className="bg-dark back">
               <img src={image7} alt="" className="foo" />
-              <p>Semo and Egusi soup</p>
+              <p>Semo and <br /> Egusi soup</p>
               <img src={star} alt="" />
               <img src={star} alt="" />
               <img src={star} alt="" />
@@ -146,7 +120,7 @@ const Content = () => {
           <div className="col-md-3 semo">
             <button className="bg-dark back">
               <img src={image8} alt="" className="foo" />
-              <p>Cheezy corn dogs</p>
+              <p>Cheezy corn <br /> dogs</p>
               <img src={star} alt="" />
               <img src={star} alt="" />
               <img src={star} alt="" />
@@ -158,7 +132,7 @@ const Content = () => {
           <div className="col-md-3 semo">
             <button className="bg-dark back">
               <img src={image9} alt="" className="foo" />
-              <p>Spaghetti Bolognese</p>
+              <p>Spaghetti <br /> Bolognese</p>
               <img src={star} alt="" />
               <img src={star} alt="" />
               <img src={star} alt="" />
@@ -230,24 +204,21 @@ const Content = () => {
       <div className="container mt-5 text-light">
         <div className="row">
           <div className="col-md-6">
-            
-          <Carousel>
-                <div>
-                    {/* <img src={background}  alt="" /> */}
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src={background1} alt="" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src={background2} alt=""/>
-                    <p className="legend">Legend 3</p>
-                </div>
+            <Carousel>
+              <div>
+                {/* <img src={background}  alt="" /> */}
+                <p className="legend">Legend 1</p>
+              </div>
+              <div>
+                <img src={background1} alt="" />
+                <p className="legend">Legend 2</p>
+              </div>
+              <div>
+                <img src={background2} alt="" />
+                <p className="legend">Legend 3</p>
+              </div>
             </Carousel>
-            </div>
-
-            
+          </div>
 
           <div className="col-md-6 mt-5">
             <div className="circle ">
